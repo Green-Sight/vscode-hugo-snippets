@@ -2,7 +2,8 @@
     "hugo-figure": {
         "prefix": "h-figure",
         "body": [
-            "{{< figure src=\"${1:imageUrl\" alt=\"${2:Description}\" >}}"
+            // use TAB to jump between positions $1 and $2
+            "{{< figure src=\"$1\" alt=\"$2\" >}}"
         ],
         "description": "Figure Shortcode"
     },
