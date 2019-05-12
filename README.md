@@ -51,3 +51,9 @@ h-table-of-contents|TableOfContents page variable
 h-title|Title page variable
 
 **[⬆ back to top](#table-of-content)**
+
+## Instructions to add to local editor copy
+```
+cd $HOME/.vscode/extensions
+git clone git@github.com:Green-Sight/vscode-hugo-snippets.git
+```
